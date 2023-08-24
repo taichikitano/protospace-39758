@@ -37,7 +37,7 @@ class PrototypesController < ApplicationController
     if prototype.update(prototype_params)
       redirect_to root_path
     else
-      render :show
+      render :edit
     end
   end
 
